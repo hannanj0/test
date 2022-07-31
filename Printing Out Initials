@@ -1,0 +1,41 @@
+// Hannan Jawad
+// 5th October 2021
+// Version 1
+// Printing out my initials in block letters using the same letters to construct it.
+
+// Print a large letter H using H characters
+//
+public static void printH ()
+{
+    System.out.println("H    H");
+    System.out.println("H    H");
+    System.out.println("HHHHHH");
+    System.out.println("H    H");
+    System.out.println("H    H");
+    System.out.println("H    H");
+    System.out.println();
+    return;
+}
+
+// Print a large letter J using J characters
+//
+public static void printJ ()
+{
+    System.out.println("JJJJJJJ");
+    System.out.println("   J   ");
+    System.out.println("   J   ");
+    System.out.println("   J   ");
+    System.out.println("   J   ");
+    System.out.println("JJJ    ");
+    System.out.println();
+    return;
+}
+
+public static void printHJ ()
+{
+    printH();
+    printJ();
+    return;
+}
+
+printHJ()
